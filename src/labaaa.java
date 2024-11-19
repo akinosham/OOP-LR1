@@ -17,7 +17,7 @@ public class labaaa {
 
     String text = readFile(filePath);
     if (text != null) {
-        String text2 = replaceKthLetter(text, k, a);
+        String text2 = replace(text, k, a);
         System.out.println("Измененный текст:\n" + text2);
     } else {
         System.out.println("Ошибка чтения файла.");
@@ -37,7 +37,7 @@ public class labaaa {
         }
     }
 
-    public static String replaceKthLetter(String text, int k, char a) {
+    public static String replace(String text, int k, char a) {
         //Этот метод остается без изменений
         String[] words = text.split("\\s+");
         StringBuilder text2 = new StringBuilder();
