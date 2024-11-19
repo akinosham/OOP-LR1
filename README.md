@@ -2,5 +2,6 @@
 
 4) В каждом слове текста k-ю букву заменить заданным символом. Если k больше длины слова, корректировку не выполнять.
 
-![image](https://github.com/user-attachments/assets/629b248b-870f-4fbd-b2e1-2f72f9038377)
+![image](https://github.com/user-attachments/assets/cb81924b-4646-49c4-8e85-f8899dc87be1)
+
  результат работы программы
